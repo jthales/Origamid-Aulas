@@ -35,3 +35,9 @@ console.log(corFavorita('outra'))
 addEventListener('click', function(){
     console.log('Clicou');
 })
+
+
+function faltaVisitar(paisesQueVisitei) {
+    var totalPaises = 193;
+    return `Falta visitar ${totalPaises - paisesQueVisitei} paises.`;
+}
