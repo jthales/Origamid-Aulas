@@ -10,3 +10,12 @@ else if(possuiGraduacao){
 else {
     console.log('Não possui graduação');
 }
+
+var nome = "Thales";
+
+if(nome) {
+    console.log(nome);
+}
+else {
+    console.log('Nome não existe');
+}
