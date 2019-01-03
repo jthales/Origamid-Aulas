@@ -36,8 +36,9 @@ addEventListener('click', function(){
     console.log('Clicou');
 })
 
-
+var totalPaises = 193;
 function faltaVisitar(paisesQueVisitei) {
-    var totalPaises = 193;
     return `Falta visitar ${totalPaises - paisesQueVisitei} paises.`;
 }
+
+console.log(`Existem ${totalPaises} paises considerados pela ONU`);
