@@ -41,3 +41,27 @@ var time = 'Barcelona';
     time= 'Palmeiras';
 
 console.log(time);
+
+// Exercício
+
+//Declarar uma váriavel com o seu nome
+var nome = 'Thales';
+
+//Declarar uma váriavel com a sua idade
+var idade = 23;
+
+//Declara uma váriavel com a sua comida favorita e não atribuir valor
+var comida;
+
+//Atribuir valor a sua comida favotida
+var comida = 'Lasanha';
+
+//Declara 5 váriaveis diferentes sem valores
+
+var casa;
+var saude;
+var cidade;
+var cep;
+var rua;
+
+console.log(nome,'tem', idade, 'anos','e gosta de', comida);
