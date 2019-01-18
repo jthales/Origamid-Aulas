@@ -5,6 +5,3 @@
 
 ## Aula 2
 #### Tipo de dados usados nas váriaveis
-
-Aprendendo os princípais conceitos Javascript ES6
-
