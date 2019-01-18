@@ -44,5 +44,25 @@ if(null)
 if (undefined)
 if('') // ou "" ou `` 
 
-Todo o resto é Truthy */
+Todo o resto é Truthy */  
 
+
+/* Operador lógico de negação
+
+Truthy
+if(!true) // false
+if(!1)  // false
+if(!'') // true
+if(!undefined) // true
+if(!!' ') // true
+if(!!'') // false
+
+Pode-se utilizar o !! para verificar se uma expressão é Truthy ou Falsy */
+
+var x = '10';
+console.log(x == 10);
+
+// == não é tão estrita já === é estrita
+
+var animal = "Gato";
+console.log(animal !== "Gatos")
