@@ -48,3 +48,43 @@ function imc2(peso, altura) {
 }
 
 imc2(80, 1.80);
+
+// Uma função pode retornar qualquer tipo de dado e até outras funções.
+
+function terceiraIdade(idade) {
+    if(typeof idade !== 'number') {
+        return 'informe sua idade';
+    } else if(idade >= 60) {
+        return true;
+    } else {
+        return false;
+    }
+    console.log('testando');
+}
+
+console.log(terceiraIdade(60));
+
+// Escopo var e functions definidade dentro de um bloco {}, não são visiveis fora dele.
+var totalPaises = 193;
+function precisoVisitar(paiseVisitado) {
+    return `Ainda faltam ${totalPaises - paiseVisitado} paises para visitar`;
+}
+
+console.log(totalPaises);
+
+// Escopo Léxico functions conseguer acessar var com o contexto 'pai'
+
+var profissao = 'Designer';
+
+function dados() {
+    var nome = 'Thales';
+    var idade = 23;
+    function outrosDados() {
+        var endereco = 'Sampa';
+        var idade = 29;
+        return `${nome}, ${idade}, ${endereco}, ${profissao}`;
+    }
+    return outrosDados();
+}
+
+console.log(dados());
