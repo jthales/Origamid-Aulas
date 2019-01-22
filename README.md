@@ -11,3 +11,6 @@
 
 ## Aula 4
 #### Boolean verificações condicionais aula 1 e 2 - 18/01
+
+## Aula 5
+#### Exercicios Boolean e Condicionais - 21/01
