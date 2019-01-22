@@ -14,3 +14,6 @@
 
 ## Aula 5
 #### Exercicios Boolean e Condicionais - 21/01
+
+## Aula 6
+#### Funções 1 e 2 - 22/01
