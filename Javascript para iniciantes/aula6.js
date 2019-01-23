@@ -88,3 +88,62 @@ function dados() {
 }
 
 console.log(dados());
+
+
+// Exercicios
+
+// Crie uma função para verificar se um valor é Truthy
+// ela deve possuir os parâmetros: nome e sobrenome
+
+var nome = 'Thales';
+var sobrenome = 'Henrique';
+
+function verificarValor(nome, sobrenome) {
+    return `O valor de nome é ${!!!nome} e sobrenome é ${!!!sobrenome} `
+};
+
+console.log(verificarValor());
+
+// Crie uma função que verifica se um número é par
+
+var num = 5;
+
+function verificaPar(num) {
+    if(num % 2 == 0){
+        return `O número é par`;
+    } else {
+        return `O número é impar`;
+    }
+}
+
+console.log(verificaPar());
+
+// Crie uma função que retorne o tipo de dado do argumento passa nela (typeof)
+
+function tipoDeDado(dado) {
+    return typeof dado;
+}
+
+// addEventListener é uma função nativa do JavaScript
+// o primeiro parâmetro é o evento que ocorre e o segundo o Callback
+// utilize essa função para mostrar no console o seu nome complet
+// quando o evento 'scroll' ocorrer.
+
+addEventListener('scroll', function(){
+    console.log('Thales Henrique da Silva')
+});
+
+// Corrija o erro abaixo
+var totalPaises = 193;
+
+function precisoVisitar(paisesVisitados) {
+    return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`
+}
+
+function jaVisitei(paisesVisitados) {
+    return `Já visitei ${paisesVisitados} do total de ${totalPaises}`
+}
+
+precisoVisitar(20);
+jaVisitei(20);
+
